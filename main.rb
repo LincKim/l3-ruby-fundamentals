@@ -35,7 +35,7 @@ height = 100
 # TODO: Float
 temp = 55.5
 
-# TODO: Number methods (floor, ceil, to_i, to_f)
+# TODO: Number methods (floor, ceil, to_i, to_f) "to_i - to interger", "to_f - to float"
 puts temp.floor
 puts temp.ceil
 puts temp.to_i
