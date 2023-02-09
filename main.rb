@@ -54,20 +54,65 @@ puts :green
 
 # 6.0 Arrays
 # TODO: Create array natively
+scores = [12,45,80,19,22]
+pp scores
 
 # TODO: Create array using Array class
+# 10 in the example below means that give me...
+# ...10 elements each with a value of 18
+ages = Array.new(10, 18)
+pp ages
 
 # 7.0 Hashes
 # TODO: Create Hash
+student = {
+    name: 'Jeff',
+    age: 20,
+    email: 'jeff@moringa.com'
+}
 
+student2 = {
+    :name => 'Diana',
+    :age => 22,
+    :email => 'diana@moringa.com'
+}
+
+student3 = {
+    'First-Last': 'Lincoln Kimutai',
+    :age => 26,
+    email: 'lincoln@moringa.com'
+}
+
+pp student
+pp student2
+pp student3
 # TODO: Create Hash using Hash class
+tm = Hash.new
+pp tm
 
 # 8.0 Methods
 # TODO: Method with enclosed params
+def say_hello(name)
+    puts "Hello, #{name}"
+end
+
+say_hello('John')
+say_hello('Billgates')
+
+def double(num)
+    num * 2
+end
+
+# puts double(10) ||
+ans = double(10)
+puts ans
 
 # TODO: Method with open params
+def say_goodbye first_name, last_name
+    puts "Hello, #{first_name} #{last_name}"
+end
 
-
+say_goodbye 'Lincoln', 'Too'
 
 
 
